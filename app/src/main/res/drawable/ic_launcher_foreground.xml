@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Isometric 3D Architectural Digital House -->
+    <!-- Roof Top Face -->
+    <path
+        android:fillColor="#3300F0FF"
+        android:strokeColor="#00F0FF"
+        android:strokeWidth="1.5"
+        android:pathData="M54,28 L78,41 L54,54 L30,41 Z" />
+
+    <!-- Left Facade Wall -->
+    <path
+        android:fillColor="#1A00F0FF"
+        android:strokeColor="#00F0FF"
+        android:strokeWidth="1.5"
+        android:pathData="M30,41 L54,54 L54,78 L30,65 Z" />
+
+    <!-- Right Facade Wall -->
+    <path
+        android:fillColor="#2600F0FF"
+        android:strokeColor="#00F0FF"
+        android:strokeWidth="1.5"
+        android:pathData="M54,54 L78,41 L78,65 L54,78 Z" />
+
+    <!-- Interior Floor Wireframe / Spatial Cutaway -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.2"
+        android:pathData="M42,47 L66,34 M42,59 L42,47 M66,47 L66,34" />
+
+    <!-- Holographic Center Core Beacon -->
+    <path
+        android:fillColor="#00F0FF"
+        android:pathData="M54,49 A3,3 0 1,1 53.9,49 Z" />
+
+    <!-- Laser Scanning Crosshair Indicators -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#3B82F6"
+        android:strokeWidth="1"
+        android:pathData="M54,20 L54,25 M54,81 L54,86 M22,53 L27,53 L81,53 L86,53" />
+</vector>
